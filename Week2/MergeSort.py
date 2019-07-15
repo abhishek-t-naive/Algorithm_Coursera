@@ -6,7 +6,8 @@ filename = 'test.txt'
 array = [line.rstrip('\n') for line in open(filename)]
 array = [int(i) for i in array]
 print(array)
-#array = [1, 3, 5, 7, 4, 6, 8, 2, 19, 15, 12, 11, 16, 17, 10, 20]
+#print(array)
+array = [1, 3, 5, 7, 4, 6, 8, 2, 19, 15, 12, 11, 16, 17, 10, 20]
  
  
 #function for dividing and calling merge function
